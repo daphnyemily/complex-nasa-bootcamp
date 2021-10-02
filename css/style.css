@@ -1,0 +1,46 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h1{
+  font-size: 50px;
+  color: white;
+  margin-left: 8%;
+}
+
+table{
+  border: 1px solid black;
+  color: white;
+  margin-left: 3%;
+  background: black;
+}
+table, th, td{
+  border: 1px solid white;
+}
+
+body{
+  background: url("../img/mercuryNASA.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  height:800px;
+  background-color: black;
+
+}
